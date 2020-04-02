@@ -56,10 +56,6 @@
 	font-size: 15px;
 }
 
-.next-month-button {
-
-}
-
 .next-month-button-left {
 	float: left;
     margin-left: 10px;
@@ -79,3 +75,54 @@
 	background-color: #c9c9c9;
 	border: none;
 }
+
+.january {
+	display: none;
+}
+
+.february {
+	display: none;
+}
+
+.march {
+	display: none;
+}
+
+.april {
+	display: block;
+}
+
+.may {
+	display: none;
+}
+
+.june {
+	display: none;
+}
+
+.july {
+	display: none;
+}
+
+.august {
+	display: none;
+}
+
+.september {
+	display: none;
+}
+
+.october {
+	display: none;
+}
+
+.november {
+	display: none;
+}
+
+.december {
+	display: none;
+}
+
+
+
