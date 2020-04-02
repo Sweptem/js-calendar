@@ -4,25 +4,20 @@
 	<title>Calendar</title>
 	<link rel="stylesheet" type="text/css" href="C:\root\calendar\calendar.css">
 	<link rel="stylesheet" type="text/css" href="C:\root\bootstrap\css\bootstrap.css">
-
-	<script type="text/javascript" src="C:\root\calendar\calendar.js"></script>
-	<script type="text/javascript" src="C:\root\bootstrap\js\bootstrap.js"></script>
 </head>
 <body>
 
-<button onclick="monthSwitch()">Test</button>
-
-<div id="january">
+<div id="january" class="january">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthSwitch()" class="left-button"><</button>
+			<button id="januaryLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			January
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="januaryRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -93,8 +88,7 @@
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -102,7 +96,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -110,7 +104,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -118,7 +112,7 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
 </div>
@@ -343,6 +337,65 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			
 		</div>
 		<div class="flex-description">
@@ -363,17 +416,17 @@
 </div>
 
 
-<div id="febrary">
+<div id="february" class="february">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="februaryLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			February
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="februaryRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -441,19 +494,45 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -461,7 +540,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -469,12 +548,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -507,6 +583,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			9
@@ -531,9 +610,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -566,6 +642,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			16
@@ -590,9 +669,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -625,6 +701,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			23
@@ -649,9 +728,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -684,9 +760,44 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
-			30
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
 		</div>
 		<div class="flex-description">
 			
@@ -714,17 +825,17 @@
 </div>
 
 
-<div id="march">
+<div id="march" class="march">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="marchLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			March
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="marchRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -768,35 +879,10 @@
 <div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -804,7 +890,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -812,7 +898,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -820,12 +906,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -850,6 +933,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			8
@@ -882,9 +968,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -909,6 +992,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			15
@@ -941,9 +1027,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -968,6 +1051,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			22
@@ -1000,9 +1086,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -1027,6 +1110,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			29
@@ -1045,6 +1131,89 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			
 		</div>
 		<div class="flex-description">
@@ -1066,17 +1235,17 @@
 
 
 
-<div id="april">
+<div id="april" class="april">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="aprilLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			April
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="aprilRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -1147,7 +1316,7 @@
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
+			JS
 			Meeting w/ Kyle @ 2:30
 		</div>
 	</div>
@@ -1156,7 +1325,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			DOM
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1164,7 +1333,8 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			jQuery
+			Meeting w/ VA616 @ 2
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1172,7 +1342,8 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			Backend
+			Meeting w/ Kyle @ 12
 		</div>
 	</div>
 </div>
@@ -1183,7 +1354,8 @@
 			5
 		</div>
 		<div class="flex-description">
-			
+			Church
+			Command Line
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1191,7 +1363,7 @@
 			6
 		</div>
 		<div class="flex-description">
-			
+			Node JS
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1199,7 +1371,9 @@
 			7
 		</div>
 		<div class="flex-description">
-			
+			Framworks
+			Meeting w/ Kyle @ 1
+			LSSBB @ 6
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1207,7 +1381,7 @@
 			8
 		</div>
 		<div class="flex-description">
-			
+			Intermediate Express
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1215,7 +1389,7 @@
 			9
 		</div>
 		<div class="flex-description">
-			
+			API's
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1223,7 +1397,8 @@
 			10
 		</div>
 		<div class="flex-description">
-			
+			YelpCamp
+			Meeting w/ VA616 @ 12:30
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1231,7 +1406,7 @@
 			11
 		</div>
 		<div class="flex-description">
-			
+			Databases
 		</div>
 	</div>
 </div>
@@ -1412,21 +1587,80 @@
 		</div>
 	</div>
 </div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
 </div>
 </div>
 </div>
 
-<div id="may">
+<div id="may" class="may">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="mayLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			May
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="mayRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -1494,11 +1728,26 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1506,15 +1755,18 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1522,12 +1774,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -1568,6 +1817,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			10
@@ -1584,9 +1836,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -1627,6 +1876,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			17
@@ -1643,9 +1895,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -1686,6 +1935,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			24
@@ -1702,9 +1954,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -1745,6 +1994,48 @@
 			
 		</div>
 	</div>
+</div>
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
 			
@@ -1767,17 +2058,17 @@
 </div>
 
 
-<div id="june">
+<div id="june" class="june">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="juneLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			June
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="juneRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -1829,27 +2120,10 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1857,7 +2131,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1865,7 +2139,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -1873,12 +2147,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -1895,6 +2166,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			7
@@ -1935,9 +2209,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -1954,6 +2225,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			14
@@ -1994,9 +2268,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -2013,6 +2284,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			21
@@ -2053,9 +2327,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -2072,6 +2343,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			28
@@ -2112,23 +2386,98 @@
 			
 		</div>
 	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
 </div>
 </div>
 </div>
 </div>
 
 
-<div id="july">
+<div id="july" class="july">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="julyLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			July
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="julyRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -2199,8 +2548,7 @@
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2208,7 +2556,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2216,7 +2564,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2224,7 +2572,7 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
 </div>
@@ -2449,6 +2797,65 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			
 		</div>
 		<div class="flex-description">
@@ -2469,17 +2876,17 @@
 </div>
 
 
-<div id="august">
+<div id="august" class="august">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="augustLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			August
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="augustRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -2547,19 +2954,45 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2567,7 +3000,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2575,12 +3008,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -2613,6 +3043,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			9
@@ -2637,9 +3070,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -2672,6 +3102,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			16
@@ -2696,9 +3129,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -2731,6 +3161,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			23
@@ -2755,9 +3188,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -2790,6 +3220,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			30
@@ -2800,6 +3233,38 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			
 		</div>
 		<div class="flex-description">
@@ -2820,17 +3285,17 @@
 </div>
 
 
-<div id="september">
+<div id="september" class="september">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="septemberLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			September
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="septemberRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -2890,19 +3355,10 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2910,7 +3366,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2918,7 +3374,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -2926,12 +3382,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -2940,6 +3393,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			6
@@ -2988,9 +3444,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -2999,6 +3452,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			13
@@ -3047,9 +3503,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -3058,6 +3511,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			20
@@ -3106,9 +3562,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -3117,6 +3570,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			27
@@ -3165,23 +3621,90 @@
 			
 		</div>
 	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
 </div>
 </div>
 </div>
 </div>
 
 
-<div id="october">
+<div id="october" class="october">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="octoberLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			October
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="octoberRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -3249,11 +3772,18 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3261,7 +3791,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3269,20 +3799,20 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
-			4
-		</div>
-		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
 </div>
 
 <div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			4
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -3331,6 +3861,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			11
@@ -3339,9 +3872,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -3390,6 +3920,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			18
@@ -3398,9 +3931,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -3449,6 +3979,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			25
@@ -3457,9 +3990,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -3502,6 +4032,57 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			
 		</div>
 		<div class="flex-description">
@@ -3522,17 +4103,17 @@
 </div>
 
 
-<div id="november">
+<div id="november" class="november">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="novemberLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			November
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="novemberRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -3576,35 +4157,10 @@
 <div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3612,7 +4168,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3620,7 +4176,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3628,12 +4184,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -3658,6 +4211,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			8
@@ -3690,9 +4246,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -3717,6 +4270,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			15
@@ -3749,9 +4305,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -3776,6 +4329,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			22
@@ -3808,9 +4364,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -3835,6 +4388,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			29
@@ -3867,23 +4423,106 @@
 			
 		</div>
 	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
 </div>
 </div>
 </div>
 </div>
 
 
-<div id="september">
+<div id="december" class="december">
 <div class="container height-container">
 	<div class="flex-month">
 		<span class="next-month-button next-month-button-left">
-			<button onclick="monthButton()" class="left-button"><</button>
+			<button id="decemberLeftButton" class="left-button"><</button>
 		</span>
 		<span>
 			December
 		</span>
 		<span class="next-month-button next-month-button-right">
-			<button onclick="monthButton()" class="right-button">></button>
+			<button id="decemberRightButton" class="right-button">></button>
 		</span>
 	</div>
 		<div class="flex-big-box">
@@ -3943,19 +4582,10 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
-			
-		</div>
-		<div class="flex-description">
-			
-		</div>
-	</div>
-	<div class="flex-small-box">
-		<div class="flex-number">
 			1
 		</div>
 		<div class="flex-description">
-			Watch Section 1: The First Steps
-			Meeting w/ Kyle @ 2:30
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3963,7 +4593,7 @@
 			2
 		</div>
 		<div class="flex-description">
-			Watch Section 2: Data Types and More
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3971,7 +4601,7 @@
 			3
 		</div>
 		<div class="flex-description">
-			Section 3: Control Structures
+			
 		</div>
 	</div>
 	<div class="flex-small-box">
@@ -3979,12 +4609,9 @@
 			4
 		</div>
 		<div class="flex-description">
-			Section 4: Custom Functions
+			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			5
@@ -3993,6 +4620,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			6
@@ -4041,9 +4671,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			12
@@ -4052,6 +4679,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			13
@@ -4100,9 +4730,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			19
@@ -4111,6 +4738,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			20
@@ -4159,9 +4789,6 @@
 			
 		</div>
 	</div>
-</div>
-
-<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			26
@@ -4170,6 +4797,9 @@
 			
 		</div>
 	</div>
+</div>
+
+<div class="flex-big-box">
 	<div class="flex-small-box">
 		<div class="flex-number">
 			27
@@ -4204,6 +4834,73 @@
 	</div>
 	<div class="flex-small-box">
 		<div class="flex-number">
+			31
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+</div>
+
+<div class="flex-big-box">
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
+			
+		</div>
+		<div class="flex-description">
+			
+		</div>
+	</div>
+	<div class="flex-small-box">
+		<div class="flex-number">
 			
 		</div>
 		<div class="flex-description">
@@ -4223,6 +4920,9 @@
 </div>
 </div>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="C:\root\calendar\calendar.js"></script>
+	<script type="text/javascript" src="C:\root\bootstrap\js\bootstrap.js"></script>
 
 </body>
 </html>
